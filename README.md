@@ -12,14 +12,16 @@
 1. Create an AWS Account
    1. Navigate to https://aws.amazon.com/ and select a button to create a new account. ![https://aws.amazon.com/](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/images/aws_create_account.jpg)
    1. Add a "+designation" to the end of your sign up email so that you can keep track of your AWS accounts. Expect to create more than one, expect to have to track and coordinate between the accounts. By adding a "+" and a following label after your email you can still receive notifications for all acounts from a single email address while allowing seperate AWS accounts. ![User Details](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/images/aws_user_details.jpg)
-   1. Continue the sign-up workflow until the end and login to the console: https://aws.amazon.com/cloudformation/resources/
+   1. Continue the sign-up workflow until the end and login to the console: https://console.aws.amazon.com/
    
-1. Secure your account: For the latest best practices on securing your AWS account see: https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html 
+1. Configure and secure your account 
+   1. Secure your root account, and manage permissions at https://console.aws.amazon.com/iam/home?# 
+   1. For the latest best practices on securing your AWS account see: https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html 
    1. Note: It is highly recommended you purchase a Gemalto Token, they are relatively inexpensive especially compared to the cost and effort of dealing with a hacker getting access to your AWS account and racking up a giant bill. For more information see: https://aws.amazon.com/iam/features/mfa/
    1. Best Practices: When securing your system there should be no root access and all activity and permissions should be designed around role permissions. This allows scalability and risk mitigation by allowing multiple accounts to interact with each other via the AssumeRole functionality. For more information see: https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html
-1. Note: Using API keys and environmental variables https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
 1. Set a budget alert on the new account: https://console.aws.amazon.com/billing/home?#/budgets
-  
+1. Configure your computer
+   1. Using API keys and environmental variables https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
 1. Create GitHub account
    1. Create GitHub repository
 
