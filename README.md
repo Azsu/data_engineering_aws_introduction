@@ -39,7 +39,7 @@
 1. Download the [SageMaker CloudFormation file](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/etc/sagemaker.cft)
    1. Update the sagemaker.cft to include the Git Repo you created [here](#pre-requisites)
 1. Review SageMaker Roles as defined in the CloudFormation Template: https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html
-1. Navigate to the CloudFormation console page: ![cloudformation](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/images/cloudformation.jpg)
+1. Navigate to the CloudFormation console page https://us-west-2.console.aws.amazon.com/cloudformation : ![cloudformation](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/images/cloudformation.jpg)
 
 ### AWS-SageMaker
 
