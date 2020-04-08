@@ -17,7 +17,7 @@
 1. Configure and secure your account 
    1. Secure your root account, and manage permissions at https://console.aws.amazon.com/iam/home?# 
    1. For the latest best practices on securing your AWS account see: https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html 
-   1. Note: It is highly recommended you purchase a Gemalto Token, they are relatively inexpensive especially compared to the cost and effort of dealing with a hacker getting access to your AWS account and racking up a giant bill. For more information see: https://aws.amazon.com/iam/features/mfa/
+   1. Note: It is highly recommended you purchase a Gemalto Token, they are relatively inexpensive especially compared to the cost and effort of dealing with a hacker getting access to your AWS account and racking up a giant bill. For more information see: https://aws.amazon.com/iam/features/mfa/ ![mfa](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/images/mfa.jpg)
    1. Best Practices: When securing your system there should be no root access and all activity and permissions should be designed around role permissions. This allows scalability and risk mitigation by allowing multiple accounts to interact with each other via the AssumeRole functionality. For more information see: https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html
 1. Set a budget alert on the new account: https://console.aws.amazon.com/billing/home?#/budgets
 1. Configure your computer
@@ -37,7 +37,9 @@
 1. Pricing: This should be free, if you find yourself exceeding the free tier consider creating a new account and splitting resources logically. https://aws.amazon.com/cloudformation/pricing/
 1. Further resources: https://aws.amazon.com/cloudformation/resources/
 1. Download the [SageMaker CloudFormation file](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/etc/sagemaker.cft)
+   1. Update the sagemaker.cft to include the Git Repo you created [here](#pre-requisites)
 1. Review SageMaker Roles as defined in the CloudFormation Template: https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html
+1. Navigate to the CloudFormation console page: ![cloudformation](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/images/cloudformation.jpg)
 
 ### AWS-SageMaker
 
