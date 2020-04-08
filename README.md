@@ -9,8 +9,9 @@
 
 ### Pre-requisites
 
-1. Create an AWS Account: Navigate to ![https://aws.amazon.com/](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/images/aws_create_account.jpg) and select a button to create a new account.
+1. Create an AWS Account: Navigate to https://aws.amazon.com/ and select a button to create a new account. ![https://aws.amazon.com/](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/images/aws_create_account.jpg)
   1. Securing your account
+    1. Note: Using API keys and environmental variables
   1. Set budget alert on new account
   
 1. Create GitHub account
