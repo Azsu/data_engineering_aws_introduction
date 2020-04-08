@@ -34,8 +34,10 @@
    1. Comparison: https://www.missioncloud.com/blog/aws-cloudformation-vs-terraform-which-one-should-you-choose
    1. Note: I recommend students review Terraform as an alternative to CloudFormation as it is an important knowledge domain when applying for work positions.
 1. Documentation: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html
-1. Pricing: This should be free, if you find yourself exceeding the free tier consider creating a new account and splitting resources logically.
-1. Resources: https://aws.amazon.com/cloudformation/resources/
+1. Pricing: This should be free, if you find yourself exceeding the free tier consider creating a new account and splitting resources logically. https://aws.amazon.com/cloudformation/pricing/
+1. Further resources: https://aws.amazon.com/cloudformation/resources/
+1. Download the [SageMaker CloudFormation file](https://github.com/Azsu/data_engineering_aws_introduction/blob/master/etc/sagemaker.cft)
+1. Review SageMaker Roles as defined in the CloudFormation Template: https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html
 
 ### AWS-SageMaker
 
